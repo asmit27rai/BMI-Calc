@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+    color:white;
+}
+h1{
+    margin-top: 120px;
+    text-decoration: underline;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+    height: 20vh;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-left: 35vw;
+    background-color: rgb(215, 215, 23);
+    padding: 10px;
+    border: solid white 5px;
+    border-radius: 10px;
+}
+#b{
+    width: 30vw;
+}
+button{
+    background-color: blue;
+    border-radius: 10px;
+    border: solid black 3px;
+}
+button :hover{
+    cursor: pointer;
+}
+#weight, #height,#result{
+    border-radius: 10px;
+    border: solid black 3px;
+}
